@@ -1,0 +1,528 @@
+/* Global */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .card .card-body .card-text {
+    color: #fff !important;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #0089C1 !important;
+  }
+  
+  .bg-grey {
+    background-color: #0029591a;
+    box-shadow: inset 0px 0px 5px 0px #00295933;
+    padding: 3vh 0;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+    padding: 3vh 0;
+  }
+  
+  .bg-blue {
+    padding: 2vh 0vh 2vh 0vh;
+    background-color: #0089c1;
+    color: #fff;
+  }
+  
+  .bg-blue h1 {
+    color: #fff;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h6 {
+    color: #0077a8;
+  }
+  
+  .btn-primary {
+    background-color: #0077a8 !important;
+    border-color: #0077a8 !important;
+    padding: .7rem;
+    font-size: 1.5rem;
+  }
+  
+  .btn-primary:active, .btn-primary:hover {
+    background-color: #00608a;
+  }
+  
+  .btn-secondary {
+    background-color: #fff;
+    color: #0089C1;
+  }
+  
+  .btn-secondary:active, .btn-secondary:hover {
+    background-color: #fff;
+    color: #0089C1;
+  }
+  
+  .fa-5x {
+    margin-top: 2vh;
+  }
+  
+  /* Navbar */
+  nav {
+    position: relative;
+    background-color: #0089c1;
+    display: inline-block;
+    box-shadow: inset 0px 0px 5px 0px #016a85;
+  }
+  
+  nav ul>li>a {
+    font-size: 30px;
+    font-weight: 450;
+    color: #fff;
+    padding: 6vh 2vh 6vh 2vh;
+    display: block;
+    text-decoration: none;
+  }
+  
+  nav ul>li>a:hover, nav li.active>a {
+    background-color: #0077a8;
+    color: #fff;
+    text-decoration: none;
+    transition: all ease-in-out 0.2s;
+  }
+  
+  nav ul>li>a::before {
+    position: relative;
+  
+  }
+  
+  .navbar {
+    padding: 0 0 0 8vh;
+  }
+  
+  .acc-link {
+    margin-right: 3vh;
+    color: #fff;
+    padding: .5vh .5vh;
+    font-size: 15px;
+  }
+  
+  .acc-link:hover {
+    color: #fff; 
+  }
+  
+  .upper-navbar {
+    background-color: hsl(197, 100%, 38%);
+  }
+  
+  /* Footer  */
+  .copyright-footer {
+    background-color: #0089C1;
+    box-shadow: inset 0px 0px 5px 0px #0077a8;
+    padding: .5vh;
+  }
+  
+  .copyright-text {
+    color: #fff;
+    margin: 1vh;
+  }
+  
+  footer {
+    background-color: #fff;
+    box-shadow: inset 0px 0px 5px 0px #9b9b9b;
+    text-align: left;
+    padding-top: 3.5vh;
+    z-index: 1;
+    position: relative;
+  }
+  
+  footer h5 {
+    font-weight: bold;
+    color: #0089c1;
+  }
+  
+  footer p {
+    color: #0089c1;
+  }
+  
+  footer p>a {
+    color: #0089c1 !important;
+    padding: 2vh 0;
+  }
+  
+  footer p>a:hover {
+    color: #0089c1;
+    text-decoration: underline;
+    transition: all ease-in-out 0.2s;
+  }
+  
+  footer .footer-social a {
+    font-size: 4vh;
+    color: #fff;
+    margin: 1vh;
+    padding: 1.5vh;
+  }
+  
+  footer p {
+    font-size: 18px;
+  }
+  
+  /* Home page */
+  .zorg-bg {
+    background-image: url("https://be.cleanlease.com/sites/default/files/banner-zorg.jpg");
+  }
+  
+  .btn-home {
+    border: none;
+  }
+  
+  .btn-home:active, .btn-home:hover {
+    transition: all ease-in-out 0.2s;
+    box-shadow: inset 0px 0px 5px 0px #00608a;
+    background-color: #d4edfc;
+    color: #00608a;
+  }
+  
+  .home-content {
+    padding: 3vh 0 3vh 0;
+    min-width: 20vh;
+  }
+  
+  .home-video {
+    margin: 1vh 1vh;
+    padding: 2vh 2vh;
+    background-color: #00608a;
+    color: #fff;
+  }
+  
+  .home-card .card-text {
+    min-height: 171px !important;
+  }
+  
+  .home-card {
+    min-height: 300px;
+    background-color: #0089c1;
+    color: #fff;
+    box-shadow: inset 0px 0px 5px 0px #016a85;
+    border-left: 5px solid;
+    border-left-color: #016a85;
+  }
+  
+  .home-card a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .home-card a:active, .home-card a:hover {
+    color: #023a52;
+  }
+  
+  .home-card .card-title {
+    font-weight: 700;
+  }
+  
+  .home-card .card-text {
+    min-height: 150px;
+  }
+  
+  /* Inloggen / aanmelden page */
+  .register-succ {
+    color: green;
+  }
+  
+  .register-msg {
+    color: red !important;
+  }
+  
+  input.register-err {
+    border: 2px solid red !important;
+  }
+  
+  .fa-lock, .fa-sign-in-alt {
+    margin-top: 1vh;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 80px;
+  }
+  
+  #formContent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  #formFooter {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  h2.inactive {
+    color: #cccccc;
+  }
+  
+  h2.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+  }
+  
+  /* FORM TYPOGRAPHY*/
+  
+  .vlr input[type=button], .vlr input[type=submit], .vlr input[type=reset]  {
+    background-color: #56baed;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .vlr input[type=button]:hover, .vlr input[type=submit]:hover, .vlr input[type=reset]:hover {
+    background-color: #39ace7;
+  }
+  
+  .vlr input[type=button]:active, .vlr input[type=submit]:active, .vlr input[type=reset]:active {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+  
+  .vlr input[type=text], .vlr input[type=email], .vlr input[type=password] {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  .vlr input[type=text]:focus, .vlr input[type=email]:focus, .vlr input[type=password]:focus{
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+  }
+  
+  .vlr input[type=text]:placeholder, .vlr input[type=email]:placeholder, .vlr input[type=password]:placeholder {
+    color: #cccccc;
+  }
+  
+  /* ANIMATIONS */
+  
+  /* Simple CSS3 Fade-in-down Animation */
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  /* Simple CSS3 Fade-in Animation */
+  @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  
+  .fadeIn {
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+  
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+  
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+  }
+  
+  .fadeIn.first {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  }
+  
+  .fadeIn.second {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+  
+  .fadeIn.third {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+  }
+  
+  .fadeIn.fourth {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+  
+  /* Simple CSS3 Fade-in Animation */
+  .underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #56baed;
+    content: "";
+    transition: width 0.2s;
+  }
+  
+  .underlineHover:hover {
+    color: #0d0d0d;
+  }
+  
+  .underlineHover:hover:after{
+    width: 100%;
+  }
+  
+  /* OTHERS */
+  
+  *:focus {
+      outline: none;
+  } 
+  
+  #icon {
+    width:60%;
+  }
+  .info-nav li.active{
+    color: #023a52;
+  }
+  
+  /* My Account page */
+  .tablelinks a, .tablelinks a:hover, .tablelinks a:active{
+    color: #212529;
+    display: block;
+  
+  }
+  
+  .nav-pills a {
+    color: #fff;
+  }
+  
+  .myacc-card thead {
+    background-color: #0089c1;
+    color: #fff;
+  }
+  
+  .myacc-card {
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 1px solid #0089c1;
+    margin-bottom: 2vh;
+  }
+  
+  .mh-fs {
+    min-height: 35em;
+  }
+  
+  .myacc-home-card {
+    background-color: #0089c1;
+    color: #fff;
+    box-shadow: inset 0px 0px 5px 0px #016a85;
+    border-left: 5px solid;
+    border-left-color: #016a85;
+  }
+  
+  .myacc-home-card a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .myacc-home-card a:active, .myacc-home-card a:hover {
+    color: #023a52;
+  }
+  
+  .myacc-home-card .card-title {
+    font-weight: 700;
+  }
+  
+  .myacc-home-card .card-text {
+    min-height: 150px;
+  }
+  
+  #editpersonalinfo .btn-primary, #editaddress .btn-primary {
+    padding: .375rem .75rem;
+    font-size: 1rem;
+  }
+  
+  strong#user-info {
+    width: 4vh;
+    min-width: 4vh;
+  }
