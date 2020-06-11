@@ -17,8 +17,8 @@
       <div class="col-12 col-md-2">
         <h5 class="footer-text"></h5>
         <p><a href="#"></a></p>
-        <p><a href="index.php?content=informatie#locatie"></a></p>
-        <p><a href="index.php?content=inloggen"></a></p>
+        
+        
       </div>
       <div class="col-12 col-md-2">
         <h5 class="footer-text">Contactinformatie</h5>
