@@ -1,4 +1,4 @@
-<form action="./index.php?content=heilige_script_voor_inloggen" method="post">
+<form action="./index.php?content=heilige_script_voor_registreren" method="post">
   <div class="form-group">
     <label for="inputEmail">Email address</label>
     <input name="email" type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="name@example.com">

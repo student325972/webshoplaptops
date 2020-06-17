@@ -18,15 +18,13 @@ if (empty($_POST["email"])) {
         $array = mk_password_hash_from_microtime();
 
         $sql = "INSERT INTO `registreren` (`id`,
-                                           `username`, 
                                            `email`, 
                                            `password`, 
                                            `userrole`) 
                 VALUES                    (NULL, 
-                                          '$username',
                                           '$email',  
                                           '{$array["password_hash"]}', 
-                                          'guest')";
+                                          'klant')";
     
         if (mysqli_query($conn, $sql)) {
 

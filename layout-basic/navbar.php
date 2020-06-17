@@ -28,6 +28,10 @@
             <a href="index.php?content=contact">Contact</a></li>
           <li class="<?php if ($content == 'faq') echo 'active' ?>">
             <a href="index.php?content=faq">FAQ</a></li>
+          <li class="<?php if ($content == 'inloggen') echo 'active' ?>">
+            <a href="index.php?content=login">Inloggen</a></li>
+          <li class="<?php if ($content == 'winkelwagen') echo 'active' ?>">
+            <a href="index.php?content=winkelwagen">🛒</a></li>
         </ul>
       </div>
     </div>

@@ -11,4 +11,5 @@
   </div>
 
   <button type="submit" class="btn btn-info">Log in</button>
+  <h5>Nieuw hier?<a href="./index.php?content=register"> Registreer je nu.</a></h5>
 </form>
