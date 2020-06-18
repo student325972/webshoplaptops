@@ -31,7 +31,7 @@ if (empty($_POST["email"])) {
             $id = mysqli_insert_id($conn);
 
             $to = $email;
-            $subject = "Activatielink voor uw account van www.jesse-is-tegen-comicsans.org";
+            $subject = "Activatielink voor uw account van www.webshoplaptops.org";
            
             $message = '
             <!doctype html>
@@ -48,7 +48,7 @@ if (empty($_POST["email"])) {
               <body>
                 <h2>Beste Gebruiker,</h2>
                 <p>U heeft zich onlangs geregistreerd voor de site http://www.webshoplaptops.com</p>
-                <p>Klik <a href="http://www.webshoplaptops.com/index.php?content=activate&id=' . $id . '&pwh=' . $array['password_hash'] . '">hier</a> voor het activeren en wijzigen van het wachtwoord van uw account</p>
+                <p>Klik <a href="http://www.webshoplaptopsgit.com/index.php?content=activate&id=' . $id . '&pwh=' . $array['password_hash'] . '">hier</a> voor het activeren en wijzigen van het wachtwoord van uw account</p>
             
                 <!-- Optional JavaScript -->
                 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
