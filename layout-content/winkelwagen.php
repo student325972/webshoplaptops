@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 
 
@@ -14,7 +13,7 @@ if (isset($_POST['remove'])){
           if($value["product_id"] == $_GET['id']){
               unset($_SESSION['cart'][$key]);
               echo "<script>alert('Product has been Removed...!')</script>";
-              echo "<script>window.location = 'winkelwagen.php'</script>";
+              echo "<script>window.location = 'cart.php'</script>";
           }
       }
   }

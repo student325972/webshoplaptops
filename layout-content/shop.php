@@ -1,8 +1,6 @@
 <?php
 
 
-session_start();
-
 
 require_once ('php/CreateDb.php');
 require_once ('./php/component.php');
@@ -19,7 +17,7 @@ if (isset($_POST['add'])){
 
         if(in_array($_POST['product_id'], $item_array_id)){
             echo "<script>alert('Product is already added in the cart..!')</script>";
-            echo "<script>window.location = 'shop.php'</script>";
+            echo "<script>window.location = 'index.php'</script>";
         }else{
 
             $count = count($_SESSION['cart']);
@@ -86,5 +84,3 @@ if (isset($_POST['add'])){
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
