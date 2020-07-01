@@ -28,19 +28,5 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid copyright-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-7 col-lg-8">
-          <h5 class="copyright-text"></h5>
-        </div>
-        <div class="col-sm-12 col-md-5 col-lg-4 footer-social">
-          <a href="https://www.facebook.com/mboutrechtalgemeen/" target="_blank"><i class="fab fa-facebook"></i></a>
-          <a href="https://twitter.com/mboutrecht" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.youtube.com/channel/UCxarjRC3rXOxfMZ0eksWQgQ" target="_blank"><i class="fab fa-youtube"></i></a>
-          <a href="https://nl.linkedin.com/company/mbo-utrecht" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
+  
 </footer>

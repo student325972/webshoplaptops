@@ -1,5 +1,8 @@
 <?php ob_start();
-session_start(); ?>
+session_start(); 
+session_destroy();
+
+?>
 <!doctype html>
 <html lang="en">
 
@@ -21,7 +24,7 @@ session_start(); ?>
 
 <body>
   <!-- include navbar -->
-  <?php include("./layout-basic/navbar.php"); ?>
+  <?php include("./php/navbar.php"); ?>
 
   <!-- Content wisselen door middel van navbar -->
   <?php
@@ -31,9 +34,8 @@ session_start(); ?>
     include("./layout-content/home.php");
   }
   ?>
-
   <!-- include footer -->
-  <?php include("./layout-basic/footer.php"); ?>
+  <?php include("./php/footer.php"); ?>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

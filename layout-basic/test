@@ -31,7 +31,20 @@
           <li class="<?php if ($content == 'inloggen') echo 'active' ?>">
             <a href="index.php?content=login">Inloggen</a></li>
           <li class="<?php if ($content == 'winkelwagen') echo 'active' ?>">
-            <a href="index.php?content=winkelwagen">🛒</a></li>
+          <a href="index.php?content=winkelwagen" class="nav-item nav-link active">
+                    <h5 class="px-5 cart">
+                        <i class="fas fa-shopping-cart"></i> 🛒
+                        
+                        <?php
+
+                        if (isset($_SESSION['cart'])){
+                            $count = count($_SESSION['cart']);
+                            echo "<span id=\"cart_count\" class=\"text-warning bg-light\">$count</span>";
+                        }else{
+                            echo "<span id=\"cart_count\" class=\"text-warning bg-light\">0</span>";
+                        }
+
+                        ?>
         </ul>
       </div>
     </div>
