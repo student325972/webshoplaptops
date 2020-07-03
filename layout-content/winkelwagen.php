@@ -6,7 +6,7 @@ require_once ("php/CreateDb.php");
 require_once ("php/component.php");
 
 $db = new CreateDb("Productdb", "Producttb");
-
+// Zorgt ervoor dat je niet twee keer dezelfde item kan nemen
 if (isset($_POST['remove'])){
   if ($_GET['action'] == 'remove'){
       foreach ($_SESSION['cart'] as $key => $value){
